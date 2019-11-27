@@ -1,0 +1,142 @@
+.topnavL1, .topnavL2 { /*CONTROLS TOPNAV FONT AND FONT SIZE*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 15px 10px 15px 10px;
+    float: left;
+  }
+
+  .topnavR1, .topnavR2, .topnavR3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 15px 10px 15px 10px;
+    float: right;
+  }
+
+a { /*CONTROLS TOPNAVL1-4 AND BOTTOMNAV FONT COLOR, UNDERLINE*/
+    text-decoration: none;
+    color: gray;
+}
+
+li { /*CONTROLS TOPNAVR1-4 INLINE DISPLAY AND COLOR OF GRID*/
+    color: gray;
+    padding: 10px 15px 10px 15px;
+}
+
+.signin { /*CONTROLS SIGN IN BUTTON*/
+    background-color: #3f76d3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+    margin: 5px 10px 0 10px;
+    float: right;
+}
+
+/*.logo {
+    width: 100%;
+    height: auto;
+}*/
+
+.logo, .vertical {
+    width: 100%;
+    height: 150px;
+    /*height: 300px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.searchContainer {
+    display: grid;
+    grid-template-columns: 1.5rem 4fr 1fr;
+    height: 50px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background: #ffffff;
+    }
+
+.searchLens { /*CONTROLS LOCATION OF LENS IN SEARCH BAR*/
+    padding: 1rem;
+    grid-row:1;
+    grid-column:1/4;
+    z-index:2;
+  }
+  
+  .searchMicro{ /*CONTROLS LOCATION OF MICRO IN SEARCH BAR*/
+    padding: 1rem;
+    grid-row:1;
+    grid-column:4/4;
+    z-index:2;
+  }
+
+.searchContainer { /*CONTROLS SIZE AND COLOR OF LENS & MICRO*/
+    color: rgb(212, 211, 211);
+    font-size: 25px;
+}
+
+.styledSearch, .styledLucky { /*CONTROLS FONT, FONT COLOR, & BACKGROUND COLOR OR SEARCH BUTTONS*/
+    border: 0;
+    line-height: 1.5px;
+    padding: 0 1px;
+    font-size: 14px;
+    text-align: center;
+    color: gray;
+    border-radius: 4px;
+    background-color: rgb(212, 211, 211);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .styledSearch {
+    flex: initial;
+    width: 138px;
+    height: 35px;
+    min-width: 100px;
+    margin: 15px 5px auto;
+  }
+
+  .styledLucky {
+    flex: none;
+    width: 138px;
+    height: 35px;
+    margin: 15px 5px auto;
+  }
+
+.styledSearch:hover, .styledLucky:hover { /*CHANGES COLOR ON HOVER OF SEARCH BAR BUTTONS*/
+    background-color: rgb(245, 245, 245);
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+}
+
+.bottomnavL1, .bottomnavL2, .bottomnavL3 {
+    float: left;
+    margin: 7px 0 0 10px;
+}
+
+.bottomnavR1, .bottomnavR2, .bottomnavR3 {
+    float: right;
+    margin: 7px 10px 0 10px;
+}
